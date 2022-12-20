@@ -12,4 +12,5 @@ john.doe@[127.0.0.1]
 
 victim&email=attacker@example.com
 
-"%0d%0aContent-Length"
+"%0d%0aContent-Length:%200%0d%0a%0d%0a"@example.com
+"recipient@test.com>\r\nRCPT TO:<victim+"@test.com
